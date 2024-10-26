@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+body {
+    background:  url('bg2.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;  
+}
+header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+    height: 100px;
+    background: none;
+}
+.head-main{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    font-size: 25px;   
+}
+.head-main h3{
+    color:white;
+}
+.head2 ul{
+    position: absolute;
+    top: 40px;
+    margin-left: 80px;
+    list-style: none;
+
+}
+.head2 ul li{
+     display: inline;
+     
+     margin-left: 140px;
+     
+}
+.head2 ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    border-radius: 20px;
+    padding: 5px;
+    transition: all 0.5s;
+    font-weight: 600;
+    outline: 1px;
+    background: rgba(0, 0.5);
+    text-shadow: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+.head2 ul li a:hover{
+    color: white;
+    background-color: #01cBae;
+
+}
+header button{
+    position:absolute ;
+    right: 55px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all ease-in-out 0.5s;
+    
+}
+header button:hover{
+    transform: scale(1.05);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    margin-top: 20rem;
+    font-size: 60px;
+   margin-right: 100px;
+}
+
+
